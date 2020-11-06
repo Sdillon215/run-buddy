@@ -3,10 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     color: #39a6b2;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 /* apply styles to <header> */
 header {
     padding: 20px 35px;
@@ -15,19 +17,23 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
 header h1 {
     font-weight: bold;
     font-size: 36px;
     color: #fce138;
     margin: 0;
 }
+
 header a {
     text-decoration: none;
     color: #fce138;
 }
+
 header nav {
     margin: 7px 0;
 }
+
 header nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -35,11 +41,13 @@ header nav ul {
     align-items: center;
     list-style: none;
 }
+
 header nav ul li {
     display: inline;
 }
+
 header nav ul li a {
-    margin: 0 30px;
+    padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
 }
@@ -54,18 +62,22 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
 footer h2 {
     color: #024e76;
     font-size: 30px;
     margin: 0;
 }
+
 footer div {
     line-height: 1.5;
     text-align: right;
 }
+
 footer a {
     color: #024e76;
 }
+
 section {
     padding: 60px;
 }
@@ -79,20 +91,24 @@ section {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
+
 .hero-cta {
     width: 35%;
     text-align: right;
     margin: 3.5%;
     color: #fff;
     font-size: 18px;
-    line-height: 1.3;
+    line-height: 1.2;
 }
+
 .hero-cta h2 {
     font-style: italic;
     font-size: 55px;
     color: #fce138;
 }
+
 .hero-form {
     border: 3px solid #024e76;
     background-color: #fce138;
@@ -101,13 +117,16 @@ section {
     width: 40%;
     margin: 3.5%;
 }
+
 .hero-form h3 {
     font-size: 24px;
     margin: 0;
 }
+
 .hero-form p {
     margin: 5px 0 15px 0;
 }
+
 .form-input {
     border: 1px solid #024e76;
     display: block;
@@ -117,9 +136,11 @@ section {
     width: 100%;
     margin-bottom: 15px;
 }
+
 .hero-form label {
     margin: 0 5px;
 }
+
 .hero-form button {
     color: #fce138;
     background-color: #024e76;
@@ -130,7 +151,6 @@ section {
 /* hero style end */
 
 /* sections */
-
 .intro p {
     line-height: 1.7;
     color: #39a6b2;
@@ -144,9 +164,8 @@ section {
     background: #fce138;
 }
 
-
 .section-title {
-    font-size: 55px;
+    font-size: 48px;
     color: #024e76;
     border-bottom: 3px solid;
     padding-bottom: 20px;
@@ -195,6 +214,7 @@ section {
   .step-img img {
       max-width: 100%;
   }
+
   .step-text p {
     color: #39a6b2;
     font-size: 18px;
@@ -250,24 +270,30 @@ section {
   .contact {
       background: #024e76;
   }
+
   .contact h2 {
       color: #fce138;
   }
+
   .contact-info {
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
   }
+
   .contact-info > * {
       flex: 1;
       margin: 15px;
   }
+
   .contact-info iframe {
       height: 400px;
   }
+
   .contact-info div {
     color: white;
   }
+
   .contact-info h3 {
     color: #fce138;
     font-size: 32px;
@@ -309,9 +335,29 @@ section {
   .text-left {
       text-align: left;
   }
+
   .text-right {
       text-align: right;
   }
+
   .flex-row {
       display: flex;
+  }
+
+  /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    /* this will be applied on any screen smaller than 980px */
+    
+  }
+  
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+  @media screen and (max-width: 768px) {
+      /* this will be applied on any screen between 768px and 575px */
+    
+  }
+  
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+      /* this will be applied on any screen smaller than 575px */
+        
   }
