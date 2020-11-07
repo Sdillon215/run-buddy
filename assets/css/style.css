@@ -199,12 +199,13 @@ section {
     flex: 1 30%;
   }
 
-  .step-info {
-      flex: 2 70%;
+   .step-info { 
+        flex: 2 70%;
       display: flex;
       flex-wrap: wrap;
       align-items: center;
-  }
+  } 
+
 
   .step-img {
       flex: 1 12%;
@@ -213,6 +214,10 @@ section {
 
   .step-img img {
       max-width: 100%;
+  }
+
+  .step-text {
+      flex: 12;
   }
 
   .step-text p {
@@ -347,7 +352,51 @@ section {
   /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
     /* this will be applied on any screen smaller than 980px */
-    
+
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+    }
+
+    footer h2, footer div {
+        text-align: center;
+        width: 100%;
+    }
+
+    .hero-cta, .hero-form {
+        width: 100%;
+    }
+
+    .hero-cta {
+        text-align: center;
+    }
+
+    .section-title {
+        width: 80%;
+    }
+
+    .trainer {
+        flex: 0 70%;
+    }
+
+    .contact-info iframe {
+        flex: 1 100%;
+    }
   }
   
   /* MEDIA QUERY FOR TABLETS AND SMALLER */
