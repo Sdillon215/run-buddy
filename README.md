@@ -12,3 +12,5 @@ https://sdillon215.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Sean
+
+### ©️2019 Run Buddy, Inc 
